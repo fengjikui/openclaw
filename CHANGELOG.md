@@ -20,6 +20,7 @@ Docs: https://docs.openclaw.ai
 
 ### Fixes
 
+- **Control UI managed worktrees:** keep the existing customizable pinned sidebar intact while exposing the new Worktrees route through its canonical navigation inventory.
 - **Control UI coalesced updates:** show a clear queued-restart completion banner when an update joins an already-running Gateway restart. (#93082) Thanks @goutamadwant.
 - **Control UI connection errors:** preserve structured pairing and authentication failures for pending RPC callers while keeping generic disconnect behavior unchanged. (#54758) Thanks @ruanrrn.
 - **TUI startup status:** show `starting up` during post-connect initialization without overwriting active-run or reconnect state. (#93999) Thanks @ml12580.
